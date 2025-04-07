@@ -1,19 +1,69 @@
 body {
-    background-color: blueviolet;
-    background-image: url("../imagemRobo.jpg");
-    background-repeat : no-repeat;
-    background-size: 50%;
-   
-
-
-
-}
-
-main{
-
-background-color: rgba(red, green, blue, alpha);
-padding: 5px 40px;
-margin-top: 20px;
-border-radius: 10px;
-
-}
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: white;
+    }
+    
+    nav {
+    background-color: #111;
+    padding: 15px;
+    text-align: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline;
+    margin: 0 15px;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    }
+    
+    nav a:hover {
+    color: #00aaff;
+    }
+    
+    .foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    }
+    
+    .centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    }
+    
+    .conteudo {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    }
+    
+    .redes-sociais {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    }
+    
+    .redes-sociais a {
+    font-size: 28px;
+    color: white;
+    }
+    
+    .redes-sociais a:hover {
+    color: #00aaff;
+    }
